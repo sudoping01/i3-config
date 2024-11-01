@@ -1,8 +1,7 @@
-
 xterm*background: black
-xterm*foreground: orange
+xterm*foreground: green
 xterm*eightBitInput: false
 xterm*eightBitOutput: true
 xterm*cursorUnderLine: true
-xterm*cursorColor: orange
+xterm*cursorColor: red
 xterm*cursorBlink: true
