@@ -37,7 +37,7 @@ exec --no-startup-id nm-applet
 
 # Set xautolock to lock the screen after 3 minutes of inactivity
 exec xautolock -time 10 -locker i3lock 
-exec --no-startup-id feh --bg-fill /home/sed/Images/kali/hack.jpg
+exec --no-startup-id feh --bg-fill /home/sed/Images/hack.jpg
 
                          
 # Use pactl to adjust volume in PulseAudio.
