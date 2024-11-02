@@ -5,3 +5,61 @@ xterm*eightBitOutput: true
 xterm*cursorUnderLine: true
 xterm*cursorColor: red
 xterm*cursorBlink: true
+! Basic appearance settings
+xterm*background: black
+xterm*foreground: green
+xterm*eightBitInput: false
+xterm*eightBitOutput: true
+xterm*cursorUnderLine: true
+xterm*cursorColor: red
+xterm*cursorBlink: true
+
+! Font configuration
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 12
+xterm*renderFont: true
+xterm*allowBoldFonts: true
+
+! Enable UTF-8
+xterm*locale: true
+xterm*utf8: 1
+
+! Scroll configuration
+xterm*saveLines: 4096
+xterm*scrollBar: true
+xterm*rightScrollBar: true
+
+! Enable copy/paste and other modern features
+xterm*selectToClipboard: true
+xterm*trimSelection: true
+xterm*highlightSelection: true
+
+! Key bindings for font size control
+! Ctrl + Plus (+) to increase font size
+xterm*VT100.Translations: #override \n\
+    Ctrl <Key> plus: larger-vt-font() \n\
+    Ctrl <Key> minus: smaller-vt-font() \n\
+    Ctrl <Key> 0: set-vt-font(d) \n\
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+! Window size in characters
+xterm*VT100*geometry: 80x24
+
+! Color theme
+xterm*color0: rgb:0/0/0
+xterm*color1: rgb:a8/00/00
+xterm*color2: rgb:00/a8/00
+xterm*color3: rgb:a8/54/00
+xterm*color4: rgb:00/00/a8
+xterm*color5: rgb:a8/00/a8
+xterm*color6: rgb:00/a8/a8
+xterm*color7: rgb:a8/a8/a8
+xterm*color8: rgb:54/54/54
+xterm*color9: rgb:fc/54/54
+xterm*color10: rgb:54/fc/54
+xterm*color11: rgb:fc/fc/54
+xterm*color12: rgb:54/54/fc
+xterm*color13: rgb:fc/54/fc
+xterm*color14: rgb:54/fc/fc
+xterm*color15: rgb:fc/fc/fc
